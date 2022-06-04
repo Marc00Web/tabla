@@ -1,0 +1,59 @@
+d>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width" />
+
+    <title>tabla HTML con JavaScript</title>
+
+    <script src="formulario.js"></script>
+
+
+  </head>
+
+<body>
+
+<br><input type="text" name="caja[]" id="aula"> AULA 
+
+<br><input type="text" name="caja[]"> EQUIPO
+
+<br><input type="text" name="caja[]"> MOTIVO
+
+<br><br><input type="button" value="Insertar" onclick="insertarTabla()"> </br>
+
+  </br>
+
+  <table border="1" cellspacing="0" style="border-collapse: collapse;">
+
+    
+
+      <tr>
+
+        <th>AULA</th>
+
+        <th>EQUIPO</th>
+
+        <th>MOTIVO</th>
+
+       </tr>
+
+     
+
+     <tbody id="miTabla">
+
+     </tbody>
+
+   </table>
+
+   <br>
+
+   <button onclick="cuantasFilas()">Consultar incidencias</button>
+
+   <p id="demo"></p>
+
+   <p id="demo2"></p>
+
+
+</body>
+
+</html>
